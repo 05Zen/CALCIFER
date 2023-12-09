@@ -19,11 +19,14 @@
         app:srcCompat="@drawable/calcifer" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtContrasena"
         android:layout_width="354dp"
         android:layout_height="48dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="479dp" />
+        android:layout_marginBottom="204dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -65,10 +68,14 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
         android:backgroundTint="@color/color2"
+        android:onClick="login"
         android:text="Iniciar"
         android:textSize="20dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="581dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
