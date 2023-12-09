@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class gestion extends AppCompatActivity {
+public class Gestion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

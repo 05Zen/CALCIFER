@@ -49,9 +49,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(MainActivity.this, "Enter all details", Toast.LENGTH_SHORT).show();
         }
-
     }
-
     private void goHome(){
         Toast.makeText(MainActivity.this, "Autenticacion exitosa.", Toast.LENGTH_SHORT).show();
     }

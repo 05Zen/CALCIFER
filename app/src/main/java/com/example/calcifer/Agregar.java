@@ -12,7 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.lang.ref.Reference;
 
-public class agregar extends AppCompatActivity {
+public class Agregar extends AppCompatActivity {
 
     EditText Nombre;
     Button AgregarD;
